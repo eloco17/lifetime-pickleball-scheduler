@@ -138,12 +138,12 @@ NODE_ENV="production"
 
 The project includes Python scripts for automated session management:
 
-- `scripts/bot/lt_bot.py`: Main bot for session scheduling
+- `scripts/bot/combined_script.py`: Main bot for session scheduling
 - `scripts/cloud/server.js`: Cloud function scheduling the automated google task
 
 To run the bot:
 ```bash
-python scripts/bot/lt_bot.py
+python scripts/bot/combined_script.py
 ```
 
 ## Contributing
